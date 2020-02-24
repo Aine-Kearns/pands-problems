@@ -10,7 +10,7 @@ import random
 howMany = 10
 topHowMany = 3
 rangeFrom = 0
-rangeTo = 0
+rangeTo = 10
 
 numbers = []
 

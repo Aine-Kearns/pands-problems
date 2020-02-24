@@ -8,11 +8,19 @@
 
 x = int(input("Please enter a positive integer: "))
 y = 2
+even = False
 
-while (y < x):
-    if (y % x) == 0:
-        print(x / 2)
+while (x > 1):
+    if (x % y) == 0:
+        even = True
     else:
-        print(x * 3 )
-y = 1
+        even = False
+    if even:
+        x = int(x / 2)
+    else:
+        x = int(x * 3 + 1)
+    print(x)
 
+
+    
+ 
