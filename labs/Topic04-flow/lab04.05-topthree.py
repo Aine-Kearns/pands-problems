@@ -2,7 +2,7 @@
 # prints them out, then
 # prints out the top 3
 
-# I will use a list to stroe and 
+# I will use a list to store and 
 # manipulate the numbers
 
 import random
