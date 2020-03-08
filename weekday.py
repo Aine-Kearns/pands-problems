@@ -1,3 +1,4 @@
+# Homework Week 5
 # Develop a program that outputs whether or not today is a weekday
 
 import datetime
@@ -10,9 +11,10 @@ now.weekday()
 #weekend = [5, 6]
 
 if now.weekday()<=4:
+    # used the knowledge that 0 - 4 is a weekday and 5 - 6 is the weekend 
     print("Yes, unfortunately today is a weekday.")
 else:
-    print("It's the weekend, yay")
+    print("It's the weekend, yay!")
    
 
 

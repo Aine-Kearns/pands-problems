@@ -1,4 +1,5 @@
-# Enter a positive number
+# Homework week 6
+# Enter a positive number - in this case 14.5
 # the programme will return a square root of the number
 
 # need to import the math library in order to use sqrt()
