@@ -6,6 +6,7 @@
 height = float(input("Enter height in centimeters: "))
 weight = float(input("Enter weight in kilograms: "))
 
-BMI = (weight/height)**2
+h = (height/100)**2
+BMI = weight/h
 
-print("Body Mass Index is BMI")
+print("Body Mass Index is", round(BMI,2))
