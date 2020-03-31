@@ -16,12 +16,6 @@ while (x > 1):
     # this will continue to run through the loop in the programme only once x is a positive number greater than one
     if (x % y) == 0:
         # this means there is no remainder so it is an even number and therefore even is true
-        even = True
-    else:
-        # where the equation above has a remainder then the number is not even and even is false
-        even = False
-    if even:
-        # if the number is even the programme will divide it by two
         x = int(x / 2)
     else:
         # if the number is odd it will be multiplied by three and one will be added

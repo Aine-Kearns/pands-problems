@@ -1,3 +1,5 @@
+# Homework from week 8
+# a programme that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes
 # copied file from IPython log file
 
 import numpy as np
